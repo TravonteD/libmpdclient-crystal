@@ -1,2 +1,2 @@
 require "spec"
-require "../src/lib_mpdclient"
+require "../src/libmpdclient"

@@ -1,10 +1,12 @@
-# lib_mpdclient
+# libmpdclient-crystal
 
 C-Bindings for `libmpdclient` to be used in Crystal projects
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
+1. Ensure that you have `libmpdclient` installed on your system
+
+2. Add the dependency to your `shard.yml`:
 
 ```yaml
 dependencies:
@@ -12,12 +14,12 @@ dependencies:
    github: travonted/lib_mpdclient
 ```
 
-2. Run `shards install`
+3. Run `shards install`
 
 ## Usage
 
 ```crystal
-require "lib_mpdclient"
+require "libmpdclient"
 
 PORT    = 6600 # Default port for mpd servers
 TIMEOUT = 1000
@@ -38,7 +40,7 @@ p "no errors"
 
 ## Contributing
 
-1. Fork it (<https://github.com/travonted/lib_mpdclient/fork>)
+1. Fork it (<https://github.com/travonted/libmpdclient-crystal/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

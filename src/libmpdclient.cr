@@ -1,4 +1,4 @@
-require "./lib_mpdclient/*"
+require "./libmpdclient/*"
 
 # C-Bindings for lib 
 @[Link("libmpdclient")]
