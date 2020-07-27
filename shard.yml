@@ -1,8 +1,8 @@
-name: lib_mpdclient
+name: libmpdclient-crystal
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - TravonteD
 
 crystal: 0.35.1
 
