@@ -24,7 +24,7 @@ lib LibMpdClient
   fun mpd_status_get_consume(status : MpdStatus*) : Bool
   fun mpd_status_get_queue_length(status : MpdStatus*) : UInt32
   fun mpd_status_get_queue_version(status : MpdStatus*) : UInt32
-  fun mpd_status_get_state(status : MpdStatus*) : MpdState*
+  fun mpd_status_get_state(status : MpdStatus*) : MpdState
   fun mpd_status_get_crossfade(status : MpdStatus*) : UInt32
   fun mpd_status_get_mixrampdb(status : MpdStatus*) : Float64
   fun mpd_status_get_mixrampdelay(status : MpdStatus*) : Float64
