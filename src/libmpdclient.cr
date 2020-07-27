@@ -1,7 +1,6 @@
 require "./libmpdclient/*"
 
 # C-Bindings for lib 
-@[Link("libmpdclient")]
-lib LibMpdClient
+module LibMpdClient
   VERSION = "0.1.0"
 end
