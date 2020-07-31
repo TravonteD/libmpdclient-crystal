@@ -8,7 +8,7 @@ lib LibMpdClient
   end
 
   fun mpd_send_current_song(connection : MpdConnection*) : Bool
-  fun mpd_run_current_song(connection : MpdConnection*) : MpdSong
+  fun mpd_run_current_song(connection : MpdConnection*) : MpdSong*
   fun mpd_send_play(connection : MpdConnection*) : Bool
   fun mpd_run_play(connection : MpdConnection*) : Bool
   fun mpd_send_play_pos(connection : MpdConnection*, song_pos : UInt32) : Bool
