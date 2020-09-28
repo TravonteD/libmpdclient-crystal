@@ -10,8 +10,8 @@ C-Bindings for `libmpdclient` to be used in Crystal projects
 
 ```yaml
 dependencies:
- lib_mpdclient:
-   github: travonted/lib_mpdclient
+ libmpdclient:
+   github: TravonteD/libmpdclient-crystal
 ```
 
 3. Run `shards install`
